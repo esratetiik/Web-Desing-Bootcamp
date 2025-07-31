@@ -1,0 +1,73 @@
+th, td{
+            text-align: left;
+        }
+        table, th, td {
+            border: 1px solid rebeccapurple;
+        }
+
+        /* p{
+            font-style: italic;
+            color: brown;
+            
+        } */
+
+        h1{
+            color: blue;
+            background-color: bisque;
+            font-size: xx-large;
+            font-style: oblique;
+            text-align: center;
+        }
+        .başlık {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: chocolate;
+        
+        }
+
+        #Esra {
+            text-shadow: 3px 3px 5px pink;
+        }
+        #paragraf {
+            text-shadow: 0ch;
+            color: green; 
+            font-style: normal;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+
+        body {
+            background-color: rgb(235, 205, 241);
+        }
+        div {
+            background-color: antiquewhite;
+            color: crimson;
+            font-style: initial;
+            border: 2px solid salmon;
+        }
+        ol{
+            border: inherit;
+
+        }
+        #a {
+            word-spacing: 40px;
+        }
+        #c {
+            letter-spacing: 40px;
+
+        }
+        ul {
+            list-style-type:disc;
+        }
+        a{
+            text-decoration: none;
+            color:red;
+        }
+        
+        a:visited {
+            color: blue ;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
