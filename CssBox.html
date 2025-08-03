@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border-bottom: 5px solid blue;
+            border-top: 5px dashed red;
+            border-left: 5px dotted green;
+            border-right: 5px solid orange;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            
+        }
+
+        #x {
+            box-sizing: border-box;
+        }
+        h2{
+            font-size: x-large;
+            color:darkslategrey;
+            margin:20px auto;
+            background-color: lightgrey;
+        }
+       p{
+        font-size: large;
+       }
+        #inline {
+            background-color: darkgreen;
+            border: 5px solid peru;
+            display: inline;
+            width: 250px;
+            height: 250px;
+       }
+    
+        #inlineblock  {
+             background-color: darkgreen;
+            border: 5px solid peru;
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+        }
+        #block  {
+            background-color: darkgreen;
+            border: 5px solid peru;
+            display: block;
+            width: 250px;
+            height: 250px;
+        }
+        #box {
+            background-color: brown;
+            border: 2px solid black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            padding: 150px;
+            font-size: x-large;
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+        }
+        #box2 {
+            background-color: lightyellow;
+            border: 2px solid black;
+            border-radius: 30px;
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            overflow: scroll;
+            overflow-x: hidden;
+            
+        }
+    </style>
+
+
+</head>
+<body>
+    <div>
+        <p><b>KODLAMA</b></p>
+    </div>
+    <div id="x">
+
+    </div>
+    <div id="y">
+
+    </div>
+
+    <br>
+
+    <h2>Inline</h2>
+    <p>Lorem ipsum dolor sit <span id="inline">amet</span>, consectetur adipisicing elit. Inventore, laudantium in molestiae esse a necessitatibus temporibus. Animi similique obcaecati optio asperiores repudiandae accusantium suscipit excepturi soluta perspiciatis at. Quae, nisi.</p>
+
+    <h2>Inline Block</h2>
+    <p>Lorem ipsum dolor sit <span id="inlineblock">amet</span> consectetur adipisicing elit. Accusamus laudantium, ducimus assumenda doloremque ipsum deleniti tempore libero quod reprehenderit laborum voluptates rem, dolore commodi veniam nam odio. Tenetur, corporis non!</p>
+
+    <h2>Block</h2>
+    <p>Lorem ipsum dolor sit <span id="block">amet</span>, consectetur adipisicing elit. Inventore, laudantium in molestiae esse a necessitatibus temporibus. Animi similique obcaecati optio asperiores repudiandae accusantium suscipit excepturi soluta perspiciatis at. Quae, nisi.</p>
+
+    <div id="box">
+       <b>ESRA</b>
+    </div>
+    <div id="box2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, libero fugiat. Aliquam aspernatur labore soluta porro corporis magnam culpa necessitatibus impedit qui quia. Quidem illum earum amet aut magni eveniet?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestias perspiciatis maiores rerum officia nesciunt ipsum ullam quaerat sint harum est ipsam minus sapiente possimus, ab accusantium dignissimos quos assumenda!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nostrum? At eveniet accusamus sed facilis provident enim maxime, aspernatur quae corrupti labore, animi consectetur consequatur numquam beatae culpa atque consequuntur.
+    </div>
+</body>
+</html>
